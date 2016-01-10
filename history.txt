@@ -1,0 +1,23 @@
+apt-get install update libltdl-dev
+
+275  ./configure
+  276  man make
+  277  ls
+  278  make -j16
+  279  make clean
+  280  make -j16
+  281  ls
+  282  make install
+  283  ls /usr/local/include
+  284  ls /usr/local/lib
+  285  ls
+  286  cd src
+  287  ls
+  288  cd tests
+  289  ls
+  290  make server
+  291  ls
+  292  make client
+  293  ls
+  294  ./server &
+  295  ./client -h tcp://210.107.198.213:51667
